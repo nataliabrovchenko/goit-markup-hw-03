@@ -264,7 +264,10 @@ margin-right: 50px;
 }
 
 /* <!-- ===FOOTER=== --> */
-.footer {
+
+footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--footer-background-color);
 }
 .logo-web {
