@@ -180,6 +180,9 @@ margin-right: 50px;
 .features-container .item:not(:last-child) {
     margin-right: 30px;
 }
+.features-container .item {
+    width: 270px;
+}
 .features .features-list {
     padding-bottom: 10px;
     font-weight: 700;
@@ -282,8 +285,13 @@ margin-right: 50px;
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
-
+.address {
+    display: block;
+    margin-top: 20px;
+}
 .address .address-office {
+    display: block;
+    margin-bottom: 9px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -292,6 +300,8 @@ margin-right: 50px;
     color: var(--primary-background-color);
     }
 .address .contacts-footer {
+    display: block;
+    margin-bottom: 9px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
